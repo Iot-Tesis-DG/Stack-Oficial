@@ -1,3 +1,4 @@
+```text
 CAPA EDGE (hardware)
 ├── ESP32 DevKitC V4 — firmware C++ / Arduino-ESP-IDF
 ├── SHT31 (I2C) — temperatura + humedad ambiental
@@ -21,9 +22,9 @@ CAPA IA
 └── Clasificación: normal / riesgo_preventivo / excursión_crítica
 
 CAPA FRONTEND
-├── Angular (recomendado si ya lo dominas) O React + Vite
-├── Librería gráficas: Apache ECharts (Angular) o Recharts (React)
-└── Deploy: Vercel (React/Angular estático)
+├── Angular — dashboard web recomendado si ya lo dominas
+├── Apache ECharts — librería de gráficas para Angular
+└── Deploy: Vercel — frontend estático
 
 SEGURIDAD (alineamiento, no certificación)
 ├── ISO/IEC 30141:2024 — arquitectura de referencia IoT
@@ -32,3 +33,4 @@ SEGURIDAD (alineamiento, no certificación)
 
 TRAZABILIDAD (sin blockchain)
 └── SHA-256 + previous_hash + timestamp + payload → PostgreSQL
+```
